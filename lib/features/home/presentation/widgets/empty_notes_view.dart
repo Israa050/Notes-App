@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:notes/core/utils/app_assets.dart';
-import 'package:notes/core/utils/app_colors.dart';
-import 'package:notes/core/utils/app_strings.dart';
+import '../../../../core/utils/app_assets.dart';
+import '../../../../core/utils/app_colors.dart';
+import '../../../../core/utils/app_strings.dart';
 
 
 class EmptyHomeView extends StatelessWidget {

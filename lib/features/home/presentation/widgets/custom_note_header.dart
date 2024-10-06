@@ -1,11 +1,11 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:notes/core/routes/routes.dart';
-import 'package:notes/core/utils/app_colors.dart';
-import 'package:notes/core/utils/app_strings.dart';
-import 'package:notes/core/utils/dialogs.dart';
-import 'package:notes/features/home/presentation/widgets/icon_box.dart';
+import '../../../../core/routes/routes.dart';
+import '../../../../core/utils/app_colors.dart';
+import '../../../../core/utils/app_strings.dart';
+import '../../../../core/utils/dialogs.dart';
+import 'icon_box.dart';
 
 class CustomNoteHeader extends StatelessWidget {
   const CustomNoteHeader({super.key});

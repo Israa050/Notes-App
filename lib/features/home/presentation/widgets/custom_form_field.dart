@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:notes/core/utils/app_colors.dart';
+import '../../../../core/utils/app_colors.dart';
 
 // ignore: must_be_immutable
 class CustomFormField extends StatefulWidget {

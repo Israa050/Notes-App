@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:notes/core/utils/app_colors.dart';
+import '../../../../core/utils/app_colors.dart';
 
 Widget customFloatingActionButton({required void Function()? onPressed,IconData icon = Icons.add}){
   return FloatingActionButton(

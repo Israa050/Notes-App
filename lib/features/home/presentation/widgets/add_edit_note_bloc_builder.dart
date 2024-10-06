@@ -2,11 +2,11 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:notes/core/functions/random_color.dart';
-import 'package:notes/features/home/data/model/note.dart';
-import 'package:notes/features/home/logic/cubit/notes_cubit.dart';
-import 'package:notes/features/home/presentation/widgets/custom_colors_row.dart';
-import 'package:notes/features/home/presentation/widgets/custom_form_field.dart';
+import '../../../../core/functions/random_color.dart';
+import '../../data/model/note.dart';
+import '../../logic/cubit/notes_cubit.dart';
+import 'custom_colors_row.dart';
+import 'custom_form_field.dart';
 
 // ignore: must_be_immutable
 class AddEditNoteBlocBuilder extends StatefulWidget {

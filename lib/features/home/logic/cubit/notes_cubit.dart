@@ -2,10 +2,10 @@ import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 import 'package:meta/meta.dart';
-import 'package:notes/core/utils/app_colors.dart';
-import 'package:notes/core/utils/app_functions.dart';
-import 'package:notes/features/home/data/model/note.dart';
-import 'package:notes/features/home/data/repository/notes_repository.dart';
+import '../../../../core/utils/app_colors.dart';
+import '../../../../core/utils/app_functions.dart';
+import '../../data/model/note.dart';
+import '../../data/repository/notes_repository.dart';
 
 part 'notes_state.dart';
 

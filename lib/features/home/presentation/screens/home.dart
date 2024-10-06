@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:notes/core/routes/routes.dart';
-import 'package:notes/core/utils/app_colors.dart';
-import 'package:notes/features/home/logic/cubit/notes_cubit.dart';
-import 'package:notes/features/home/presentation/widgets/custom_floating_action_button.dart';
-import 'package:notes/features/home/presentation/widgets/custom_note_header.dart';
-import 'package:notes/features/home/presentation/widgets/empty_notes_view.dart';
-import 'package:notes/features/home/presentation/widgets/error_view.dart';
-import 'package:notes/features/home/presentation/widgets/notes_view.dart';
+import '../../../../core/routes/routes.dart';
+import '../../../../core/utils/app_colors.dart';
+import '../../logic/cubit/notes_cubit.dart';
+import '../widgets/custom_floating_action_button.dart';
+import '../widgets/custom_note_header.dart';
+import '../widgets/empty_notes_view.dart';
+import '../widgets/error_view.dart';
+import '../widgets/notes_view.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});

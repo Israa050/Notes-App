@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:notes/features/home/data/model/note.dart';
-import 'package:notes/features/home/presentation/widgets/note_list_item.dart';
+import '../../../home/data/model/note.dart';
+import '../../../home/presentation/widgets/note_list_item.dart';
 
 class NotesSearch extends StatelessWidget {
   final List<Note> notes;

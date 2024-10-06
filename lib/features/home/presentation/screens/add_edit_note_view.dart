@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:notes/core/utils/app_colors.dart';
-import 'package:notes/features/home/data/model/note.dart';
-import 'package:notes/features/home/logic/cubit/notes_cubit.dart';
-import 'package:notes/features/home/presentation/widgets/add_edit_note_bloc_builder.dart';
-import 'package:notes/features/home/presentation/widgets/custom_floating_action_button.dart';
+import '../../../../core/utils/app_colors.dart';
+import '../../data/model/note.dart';
+import '../../logic/cubit/notes_cubit.dart';
+import '../widgets/add_edit_note_bloc_builder.dart';
+import '../widgets/custom_floating_action_button.dart';
 
 // ignore: must_be_immutable
 class AddNewNoteView extends StatefulWidget {

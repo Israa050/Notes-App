@@ -3,9 +3,9 @@
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:notes/core/routes/routes.dart';
-import 'package:notes/core/utils/app_assets.dart';
-import 'package:notes/core/utils/app_colors.dart';
+import '../../../core/routes/routes.dart';
+import '../../../core/utils/app_assets.dart';
+import '../../../core/utils/app_colors.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});

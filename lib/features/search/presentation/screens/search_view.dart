@@ -1,12 +1,12 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:notes/core/utils/app_assets.dart';
-import 'package:notes/core/utils/app_colors.dart';
-import 'package:notes/core/utils/app_strings.dart';
-import 'package:notes/features/search/logic/cubit/search_cubit.dart';
-import 'package:notes/features/search/presentation/widgets/notes.dart';
-import 'package:notes/features/search/presentation/widgets/search_failure_view.dart';
+import '../../../../core/utils/app_assets.dart';
+import '../../../../core/utils/app_colors.dart';
+import '../../../../core/utils/app_strings.dart';
+import '../../logic/cubit/search_cubit.dart';
+import '../widgets/notes.dart';
+import '../widgets/search_failure_view.dart';
 
 // ignore: must_be_immutable
 class SearchView extends StatefulWidget {

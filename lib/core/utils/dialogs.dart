@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:notes/core/utils/app_colors.dart';
+import 'app_colors.dart';
 
 abstract class Dialogs {
   static void infoDailog(BuildContext context) {

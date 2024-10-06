@@ -1,10 +1,10 @@
 
 
 import 'package:dartz/dartz.dart';
-import 'package:notes/core/database/db_helper.dart';
-import 'package:notes/core/routes/app_router.dart';
-import 'package:notes/features/home/data/model/error_model.dart';
-import 'package:notes/features/home/data/model/note.dart';
+import '../../../../core/database/db_helper.dart';
+import '../../../../core/routes/app_router.dart';
+import '../model/error_model.dart';
+import '../model/note.dart';
 
 class NotesRepository {
 

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:notes/core/routes/routes.dart';
-import 'package:notes/core/utils/app_colors.dart';
-import 'package:notes/features/home/data/model/note.dart';
-import 'package:notes/features/home/logic/cubit/notes_cubit.dart';
+import '../../../../core/routes/routes.dart';
+import '../../../../core/utils/app_colors.dart';
+import '../../data/model/note.dart';
+import '../../logic/cubit/notes_cubit.dart';
 
 class NotesListItem extends StatelessWidget {
   final Note note;

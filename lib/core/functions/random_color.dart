@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:notes/core/utils/app_colors.dart';
+import '../utils/app_colors.dart';
 import 'dart:math' as math;
 
 Color randomColor(){

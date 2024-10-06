@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:notes/core/database/db_helper.dart';
-import 'package:notes/core/routes/routes.dart';
-import 'package:notes/features/home/data/model/note.dart';
-import 'package:notes/features/home/data/repository/notes_repository.dart';
-import 'package:notes/features/home/logic/cubit/notes_cubit.dart';
-import 'package:notes/features/home/presentation/screens/add_edit_note_view.dart';
-import 'package:notes/features/home/presentation/screens/home.dart';
-import 'package:notes/features/search/logic/cubit/search_cubit.dart';
-import 'package:notes/features/search/presentation/screens/search_view.dart';
+import '../database/db_helper.dart';
+import 'routes.dart';
+import '../../features/home/data/model/note.dart';
+import '../../features/home/data/repository/notes_repository.dart';
+import '../../features/home/logic/cubit/notes_cubit.dart';
+import '../../features/home/presentation/screens/add_edit_note_view.dart';
+import '../../features/home/presentation/screens/home.dart';
+import '../../features/search/logic/cubit/search_cubit.dart';
+import '../../features/search/presentation/screens/search_view.dart';
 
 NotesRepository repository = NotesRepository(dbHelper: DbHelper(),);
 

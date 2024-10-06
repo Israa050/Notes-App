@@ -1,7 +1,7 @@
 
 import 'package:hive/hive.dart';
-import 'package:notes/core/utils/app_consonants.dart';
-import 'package:notes/features/home/data/model/note.dart';
+import '../utils/app_consonants.dart';
+import '../../features/home/data/model/note.dart';
 
 class DbHelper {
     

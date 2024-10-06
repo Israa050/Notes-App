@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
-import 'package:notes/core/utils/app_consonants.dart';
-import 'package:notes/features/home/data/model/note.dart';
+import '../utils/app_consonants.dart';
+import '../../features/home/data/model/note.dart';
 import 'package:path_provider/path_provider.dart' as path_provider;
 
 

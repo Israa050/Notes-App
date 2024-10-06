@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:notes/core/utils/app_colors.dart';
-import 'package:notes/features/home/data/model/note.dart';
-import 'package:notes/features/home/logic/cubit/notes_cubit.dart';
-import 'package:notes/features/home/presentation/widgets/note_list_item.dart';
+import '../../../../core/utils/app_colors.dart';
+import '../../data/model/note.dart';
+import '../../logic/cubit/notes_cubit.dart';
+import 'note_list_item.dart';
 
 class NotesView extends StatefulWidget {
   final List<Note> notes;

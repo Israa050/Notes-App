@@ -1,9 +1,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:notes/core/utils/app_colors.dart';
-import 'package:notes/features/home/logic/cubit/notes_cubit.dart';
-import 'package:notes/features/home/presentation/widgets/custom_color_container.dart';
+import '../../../../core/utils/app_colors.dart';
+import '../../logic/cubit/notes_cubit.dart';
+import 'custom_color_container.dart';
 
 class CustomColorsRow extends StatefulWidget {
   final int index;

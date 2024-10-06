@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:notes/core/utils/app_colors.dart';
+import '../../../../core/utils/app_colors.dart';
 
 Widget iconBox(IconData icon,{double hight = 50 ,double width = 50,void Function()? opTap}) {
   return Padding(

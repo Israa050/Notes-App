@@ -1,8 +1,8 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:notes/core/utils/app_colors.dart';
-import 'package:notes/core/utils/app_strings.dart';
+import '../../../../core/utils/app_colors.dart';
+import '../../../../core/utils/app_strings.dart';
 
 class SearchFailureView extends StatelessWidget {
   final String assetName;

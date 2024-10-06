@@ -3,7 +3,8 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:notes/core/routes/app_router.dart';
+
+import '../core/routes/app_router.dart';
 
 // ignore: must_be_immutable
 class MyApp extends StatelessWidget {
