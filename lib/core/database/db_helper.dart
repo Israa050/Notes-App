@@ -20,7 +20,7 @@ class DbHelper {
          final notes = box;
         await notes?.add(note);
       }catch(e){
-        print(e.toString());
+        //print(e.toString());
       }
     }
 

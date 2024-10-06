@@ -37,6 +37,7 @@ class _AddEditNoteBlocBuilderState extends State<AddEditNoteBlocBuilder> {
     BlocProvider.of<NotesCubit>(context).color = Color(widget.note!.color!);
     widget.color = Color(widget.note!.color!);
     }
+    BlocProvider.of<NotesCubit>(context).color = widget.color;
     super.initState();
   }
 

@@ -20,7 +20,6 @@ class AppColors {
   static const Color orange = Color(0xFFe76f51);
   static const Color darkPurple = Color(0xFF8338ec);
   static const Color pink = Color(0xFFfb6f92);
-  static const Color deepGreen = Color(0xFF588157);
   static const Color lightYellow = Color(0xFFe9ff70);
 
 
@@ -34,7 +33,6 @@ class AppColors {
     AppColors.orange,
     AppColors.darkPurple,
     AppColors.pink,
-    AppColors.deepGreen,
     AppColors.lightYellow,
   ];
   

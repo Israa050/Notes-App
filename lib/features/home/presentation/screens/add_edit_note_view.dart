@@ -10,7 +10,6 @@ import 'package:notes/features/home/presentation/widgets/custom_floating_action_
 class AddNewNoteView extends StatefulWidget {
   Note? note;
   int? index;
-  Color color = AppColors.lightPurple;
   AddNewNoteView({super.key, this.note, this.index});
 
   @override

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:notes/core/database/db_helper.dart';
 import 'package:notes/core/routes/routes.dart';
-import 'package:notes/core/utils/app_strings.dart';
 import 'package:notes/features/home/data/model/note.dart';
 import 'package:notes/features/home/data/repository/notes_repository.dart';
 import 'package:notes/features/home/logic/cubit/notes_cubit.dart';
